@@ -1,0 +1,25 @@
+{
+  "name": "node-express-handlebars",
+  "version": "1.0.0",
+  "description": "App using node, express, and handlebars",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bran-Camp/burger-node"
+  },
+  "author": "Brandon Campbell",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "express": "^4.13.3",
+    "express-handlebars": "^2.0.1",
+    "method-override": "^2.3.5",
+    "mysql": "^2.10.2"
+  },
+  "devDependencies": {
+    "handlebars-helper-css": "^0.1.0"
+  }
+}
